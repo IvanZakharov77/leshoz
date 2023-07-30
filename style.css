@@ -68,6 +68,116 @@ header {
   align-items: center;
 }
 /* ------------------ */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  header {
+    width: 100%;
+  }
+  .advantages,
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 320px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+  .icon {
+    width: 30px;
+  }
+  .hero {
+    background-image: url('./img/webpc-passthrujpg.jpg');
+    width: 320px;
+    margin-top: 32px;
+  }
+  .hero-content {
+    width: 260px;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 15px;
+  }
+  .hero-content h2 {
+    font-size: 25px;
+  }
+  .hero-content > h1 {
+    margin-top: 20px;
+  }
+  .advantages {
+    margin-top: 40px;
+  }
+  .img-quality {
+    width: 150px;
+    bottom: 5%;
+  }
+  .list-advantages {
+    margin-top: 30px;
+  }
+  .list-advantages li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-advantages-img {
+    width: 100px;
+  }
+  .list-advantages-txt {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 4px solid transparent;
+    background: linear-gradient(#f5f5f5, #cfcfcf) padding-box,
+      linear-gradient(to right, #f3f3f3 0%, #d6d6d6 100%) border-box;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(243, 228, 228);
+  }
+  .technical-card-h {
+    margin-top: 40px;
+  }
+  .technical-card {
+    background-image: url('./img/fon.jpg');
+    background-color: rgba(255, 255, 255, 0.301);
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .technical-card-img-one img {
+    width: 100px;
+  }
+  .technical-card-img-one {
+    display: flex;
+    justify-content: space-around;
+  }
+  .block-img-pinikey {
+    padding: 20px;
+  }
+  .pinikey {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
+  .technical-card {
+    flex-direction: column;
+  }
+  .technical-card-txt {
+    width: 100%;
+    font-size: 12px;
+  }
+  .manufacturing {
+    width: 320px;
+  }
+  .manufacturing img {
+    width: 160px;
+  }
+  .logo-footer {
+    width: 50px;
+  }
+}
+/* ------------------ */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   header {
     width: 100%;
