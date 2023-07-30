@@ -6,7 +6,9 @@
 a {
   text-decoration: none;
 }
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 ul {
   list-style: none;
 }
@@ -42,6 +44,23 @@ header {
   background-repeat: no-repeat;
   position: relative;
 }
+button {
+  margin-top: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: linear-gradient(
+    87.99deg,
+    #c3aab2 0.66%,
+    #9ec 57.2%,
+    #80c0c8 75.87%,
+    #4b8bfa 98.72%
+  );
+}
 h2 {
   text-align: center;
 }
@@ -73,6 +92,15 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.time-work {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 /* ------------------ */
 @media screen and (min-width: 320px) and (max-width: 479px) {
@@ -186,7 +214,15 @@ h2 {
     background-color: rgb(235, 235, 235);
   }
   .logo-footer {
-    width: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80px;
+  }
+  .icon-footer {
+    width: 40px;
+  }
+  .call-img {
+    width: 80px;
   }
 }
 /* ------------------ */
@@ -300,6 +336,12 @@ h2 {
   .logo-footer {
     width: 200px;
   }
+  .icon-footer {
+    width: 40px;
+  }
+  .call-img {
+    width: 80px;
+  }
 }
 /* ------------------ */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -377,11 +419,9 @@ h2 {
   .technical-card-img-one img {
     width: 100px;
   }
-  .technical-card-img-one div:first-child {
-    margin-top: 60px;
-  }
-  .technical-card-img-one div:nth-child(2n) {
-    margin-top: 180px;
+  .technical-card-img-one {
+    display: flex;
+    justify-content: space-around;
   }
   .block-img-pinikey {
     padding: 20px;
@@ -391,10 +431,12 @@ h2 {
     margin-right: auto;
     width: 450px;
   }
+  .technical-card-flex {
+    flex-direction: column;
+  }
   .technical-card-txt {
-    padding: 60px 10px 0px 10px;
-    width: 50%;
-    font-size: 14px;
+    font-size: 15px;
+    padding: 10px;
   }
   .manufacturing {
     width: 748px;
@@ -407,6 +449,15 @@ h2 {
   }
   .logo-footer {
     width: 200px;
+  }
+  .icon-footer {
+    width: 60px;
+  }
+  .call-img {
+    width: 150px;
+  }
+  .time-work-txt {
+    font-size: 25px;
   }
 }
 
@@ -427,17 +478,18 @@ h2 {
     margin-top: 35px;
   }
   .hero-content {
-    bottom: 10%;
+    bottom: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 20px;
   }
   .hero-content h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
-  .hero-content > h1 {
+  .hero-content h1 {
     margin-top: 20px;
+    font-size: 45px;
   }
   .advantages {
     margin-top: 40px;
@@ -514,5 +566,14 @@ h2 {
   }
   .logo-footer {
     width: 200px;
+  }
+  .icon-footer {
+    width: 80px;
+  }
+  .call-img {
+    width: 150px;
+  }
+  .time-work-txt {
+    font-size: 25px;
   }
 }
