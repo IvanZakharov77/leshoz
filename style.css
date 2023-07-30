@@ -181,6 +181,10 @@ h2 {
   .manufacturing img {
     width: 160px;
   }
+  .foot,
+  footer {
+    background-color: rgb(235, 235, 235);
+  }
   .logo-footer {
     width: 50px;
   }
@@ -289,6 +293,10 @@ h2 {
   .manufacturing img {
     width: 230px;
   }
+  .foot,
+  footer {
+    background-color: rgb(235, 235, 235);
+  }
   .logo-footer {
     width: 200px;
   }
@@ -394,6 +402,9 @@ h2 {
   .manufacturing img {
     width: 374px;
   }
+  .foot {
+    background-color: rgb(235, 235, 235);
+  }
   .logo-footer {
     width: 200px;
   }
@@ -498,8 +509,8 @@ h2 {
   .manufacturing img {
     width: 600px;
   }
-  footer {
-    background-color: black;
+  .foot {
+    background-color: rgb(235, 235, 235);
   }
   .logo-footer {
     width: 200px;
